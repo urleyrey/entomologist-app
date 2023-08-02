@@ -1,0 +1,7 @@
+{
+  "name": "entomologist-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
