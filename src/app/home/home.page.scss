@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 50%;
+  top: 45%;
   transform: translateY(-50%);
 }
 
@@ -24,4 +24,14 @@
 
 #container a {
   text-decoration: none;
+}
+
+.home-button {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 80%;
+  transform: translateY(-50%);
 }
