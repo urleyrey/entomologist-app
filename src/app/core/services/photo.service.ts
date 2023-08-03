@@ -67,7 +67,7 @@ export class PhotoService {
           source: CameraSource.Photos
         });
 
-      alert(2);  
+      alert("2");  
 
       this.photos.unshift({
         filepath: "soon...",
