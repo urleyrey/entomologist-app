@@ -1,0 +1,29 @@
+#container {
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 50%;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.ion-padding-bottom{
+    background-color: white;
+    border-radius: 32px;
+}
+
+ion-avatar{
+    width:100% !important;
+    height : 100% !important;
+    max-width: 120px !important;  //any size
+    max-height: 120px !important; //any size
+}

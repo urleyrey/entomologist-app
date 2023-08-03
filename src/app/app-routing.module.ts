@@ -18,11 +18,7 @@ const routes: Routes = [
   {
     path: 'entomologist-photo',
     loadChildren: () => import('./pages/entomologist-photo/entomologist-photo.module').then( m => m.EntomologistPhotoPageModule)
-  },
-  {
-    path: 'count',
-    loadChildren: () => import('./pages/count/count.module').then( m => m.CountPageModule)
-  },
+  }
 ];
 
 @NgModule({
